@@ -22,19 +22,27 @@ const MobileNav = () => {
         {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
       </Button>
 
-    
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-background shadow-lg border-t border-border p-6 flex flex-col gap-4 z-50">
-          <Link href="#" className="text-lg font-medium hover:text-primary">
+          <Link href="#home" className="text-lg font-medium hover:text-primary">
             Home
           </Link>
-          <Link href="#" className="text-lg font-medium hover:text-primary">
+          <Link
+            href="#Programes"
+            className="text-lg font-medium hover:text-primary"
+          >
             Programs
           </Link>
-          <Link href="#" className="text-lg font-medium hover:text-primary">
+          <Link
+            href="#pricing"
+            className="text-lg font-medium hover:text-primary"
+          >
             Pricing
-          </ Link>
-          <Link href="#" className="text-lg font-medium hover:text-primary">
+          </Link>
+          <Link
+            href="#Testimonials"
+            className="text-lg font-medium hover:text-primary"
+          >
             Testimonials
           </Link>
           <Button className="mt-4">Join Now</Button>

@@ -5,7 +5,10 @@ import { Facebook, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary  text-white py-3 mt-12 duration-300 "id='Contact'>
+    <footer
+      className="bg-secondary  text-white py-3 mt-12 duration-300 "
+      id="Contact"
+    >
       <div className=" max-w-9xl mx-auto px-2 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand  */}
@@ -44,7 +47,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold font-heading mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {["Home", "About", "Programes", "pricing", "Contact"].map(
+              {["Home", "About", "Programes", "pricing", "Testimonials"].map(
                 (link) => (
                   <li key={link}>
                     <Link
